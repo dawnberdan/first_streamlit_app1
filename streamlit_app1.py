@@ -43,6 +43,10 @@ except URLError as e:
     streamlit.error()
     
 #import snowflake.connector
+conn = snowflake.connector.connect(account='MWJDXUP.QI47285.region.cloud_provider',
+                                   user='BERDAWN',
+                                   password='Ddz@021616',
+                                   database='PC_RIVERY_DB') 
 #streamlit.text ("The fruit load list contains:")
 streamlit.header ("View Our Fruit List - Add Your Favorites!")
 #Snowflake-related functions
